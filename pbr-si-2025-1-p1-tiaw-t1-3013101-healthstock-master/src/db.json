@@ -1,0 +1,331 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Máscara N95",
+      "quantidade": 120,
+      "validade": "2025-06-01",
+      "setor": "UTI"
+    }
+  ],
+  "users": [
+    {
+      "id": "3548",
+      "name": "Fellipe Babeto",
+      "email": "fellipe@teste.com",
+      "password": "123456"
+    },
+    {
+      "id": "1f86",
+      "email": "ana@teste.com",
+      "password": "123456"
+    },
+    {
+      "id": "bfab",
+      "email": "pedro@teste.com",
+      "password": "123456"
+    },
+    {
+      "id": "4dd3",
+      "name": "Maria",
+      "email": "maria@teste.com",
+      "password": "123456"
+    }
+  ],
+  "insumos": [
+    {
+      "id": "9a19",
+      "nome": "Dipirona",
+      "descricao": "Remédio para dores leves",
+      "quantidade": 99,
+      "dataVencimento": "2025-11-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T12:33:40.255Z",
+      "criadoPor": "Desconhecido",
+      "dataCriacao": "2025-05-10T12:33:40.255Z"
+    },
+    {
+      "id": "f753",
+      "nome": "Aspirina",
+      "descricao": "Medicamento para dor e febre",
+      "quantidade": 46,
+      "dataVencimento": "2026-03-15",
+      "alteradoPor": {
+        "id": "4dd3",
+        "name": "Maria"
+      },
+      "dataAlteracao": "2025-05-10T12:55:30.359Z",
+      "criadoPor": {
+        "nome": "Desconhecido"
+      },
+      "dataCriacao": "2025-05-10T12:51:56.164Z"
+    },
+    {
+      "id": "med01",
+      "nome": "Paracetamol",
+      "descricao": "Analgésico e antitérmico 500mg",
+      "quantidade": 120,
+      "dataVencimento": "2026-02-28",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:00:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:00:00.000Z"
+    },
+    {
+      "id": "med02",
+      "nome": "Ibuprofeno",
+      "descricao": "Anti-inflamatório 400mg",
+      "quantidade": 80,
+      "dataVencimento": "2025-12-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:01:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:01:00.000Z"
+    },
+    {
+      "id": "soro01",
+      "nome": "Soro Fisiológico 0,9%",
+      "descricao": "Solução isotônica 500ml",
+      "quantidade": 50,
+      "dataVencimento": "2025-10-15",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:02:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:02:00.000Z"
+    },
+    {
+      "id": "soro02",
+      "nome": "Soro Glicosado 5%",
+      "descricao": "Solução intravenosa 500ml",
+      "quantidade": 40,
+      "dataVencimento": "2025-09-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:03:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:03:00.000Z"
+    },
+    {
+      "id": "vac01",
+      "nome": "Vacina Influenza",
+      "descricao": "Vacina contra gripe (dose única)",
+      "quantidade": 30,
+      "dataVencimento": "2025-08-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:04:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:04:00.000Z"
+    },
+    {
+      "id": "vac02",
+      "nome": "Vacina Hepatite B",
+      "descricao": "Vacina recombinante (10 doses)",
+      "quantidade": 25,
+      "dataVencimento": "2026-01-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:05:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:05:00.000Z"
+    },
+    {
+      "id": "sang01",
+      "nome": "Bolsa de Sangue A+",
+      "descricao": "Bolsa 450ml tipo A Rh positivo",
+      "quantidade": 5,
+      "dataVencimento": "2025-05-25",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:06:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:06:00.000Z"
+    },
+    {
+      "id": "sang02",
+      "nome": "Bolsa de Sangue O-",
+      "descricao": "Bolsa 450ml tipo O Rh negativo",
+      "quantidade": 3,
+      "dataVencimento": "2025-05-28",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:07:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:07:00.000Z"
+    },
+    {
+      "id": "med03",
+      "nome": "Amoxicilina",
+      "descricao": "Antibiótico 500mg",
+      "quantidade": 60,
+      "dataVencimento": "2025-12-15",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:08:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:08:00.000Z"
+    },
+    {
+      "id": "med04",
+      "nome": "Omeprazol",
+      "descricao": "Inibidor de bomba de prótons 20mg",
+      "quantidade": 75,
+      "dataVencimento": "2026-04-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:09:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:09:00.000Z"
+    },
+    {
+      "id": "med05",
+      "nome": "Losartana",
+      "descricao": "Anti-hipertensivo 50mg",
+      "quantidade": 90,
+      "dataVencimento": "2026-03-31",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:10:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:10:00.000Z"
+    },
+    {
+      "id": "soro03",
+      "nome": "Ringer Lactato",
+      "descricao": "Solução de reposição 500ml",
+      "quantidade": 35,
+      "dataVencimento": "2025-11-30",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T14:11:00.000Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:11:00.000Z"
+    },
+    {
+      "id": "vac03",
+      "nome": "Vacina Tétano",
+      "descricao": "Vacina antitetânica (dose única)",
+      "quantidade": 25,
+      "dataVencimento": "2026-02-28",
+      "alteradoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataAlteracao": "2025-05-10T13:41:34.100Z",
+      "criadoPor": {
+        "id": "3548",
+        "name": "Fellipe Babeto"
+      },
+      "dataCriacao": "2025-05-10T14:12:00.000Z"
+    }
+  ],
+
+  "fornecedores": [
+    {
+      "id": "forn01",
+      "nome": "Laboratórios Vida",
+      "cnpj": "12.345.678/0001-90",
+      "email": "vida@laboratorios.com",
+      "telefone": "(11) 99999-0001",
+      "insumosFornecidos": ["med01", "med02", "med03"]
+    },
+    {
+      "id": "forn02",
+      "nome": "Farmacêutica São Lucas",
+      "cnpj": "23.456.789/0001-01",
+      "email": "lucas@farmaceutica.com",
+      "telefone": "(21) 98888-0002",
+      "insumosFornecidos": ["soro01", "soro02", "soro03"]
+    },
+    {
+      "id": "forn03",
+      "nome": "Imuniza Vacinas",
+      "cnpj": "34.567.890/0001-12",
+      "email": "contato@imuniza.com",
+      "telefone": "(31) 97777-0003",
+      "insumosFornecidos": ["vac01", "vac02", "vac03"]
+    },
+    {
+      "id": "forn04",
+      "nome": "Hospitalar Brasil",
+      "cnpj": "45.678.901/0001-23",
+      "email": "vendas@hospitalarbr.com",
+      "telefone": "(41) 96666-0004",
+      "insumosFornecidos": ["sang01", "sang02", "med04", "med05"]
+    },
+    {
+      "id": "forn05",
+      "nome": "Genéricos Nacional",
+      "cnpj": "56.789.012/0001-34",
+      "email": "suporte@genericos.com",
+      "telefone": "(51) 95555-0005",
+      "insumosFornecidos": ["9a19", "f753"]
+    }
+  ]
+}
